@@ -1,0 +1,7 @@
+# Custom Agent check using Dogstatsd to collect Windows Updates Count
+
+init_config:
+
+instances:
+  - min_collection_interval: 300
+    version: "1.0.0"
